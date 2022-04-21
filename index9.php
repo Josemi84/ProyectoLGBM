@@ -5,7 +5,7 @@
 <html lang="es">
 
 <head> 
-    <title>Sistema LGBM | Principal</title>
+    <title>Sistema LGBM | Compras</title>
     <?php   include('../Proyecto/layout/head.php');?>
 </head>
 
@@ -24,7 +24,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">P&aacutegina Web</h1>
+                            <h1 class="m-0">Pedidos de Compra</h1>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
                     <?php ?>

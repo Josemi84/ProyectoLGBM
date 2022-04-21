@@ -54,13 +54,13 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="../Proyecto/index3.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Newsletter</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="../Proyecto/index4.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Campa&ntildeas</p>
                                     </a>
@@ -77,19 +77,19 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="../Proyecto/index5.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Generales</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="../Proyecto/index6.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Tareas</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="../Proyecto/index7.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Calendario</p>
                                     </a>
@@ -106,19 +106,19 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="../Proyecto/index8.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Inventario</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="../Proyecto/index9.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Compras</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="../Proyecto/index9.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Ventas</p>
                                     </a>

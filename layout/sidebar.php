@@ -36,32 +36,33 @@
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
                             with font-awesome or any other icon font library -->
-                        
+
+                        <li class="nav-header">MEN&Uacute DE NAVEGACI&OacuteN</li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-copy"></i>
                                 <p>
-                                    Layout Options
+                                    Publicidad
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="pages/layout/top-nav.html" class="nav-link">
+                                    <a href="../Proyecto/index2.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Top Navigation</p>
+                                        <p>Clientes</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                                    <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Top Navigation + Sidebar</p>
+                                        <p>Newsletter</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/layout/boxed.html" class="nav-link">
+                                    <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Boxed</p>
+                                        <p>Campa&ntildeas</p>
                                     </a>
                                 </li>
                             </ul>
@@ -70,21 +71,27 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-chart-pie"></i>
                                 <p>
-                                    Charts
+                                    Estad&iacutesticas
                                     <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="pages/charts/chartjs.html" class="nav-link">
+                                    <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>ChartJS</p>
+                                        <p>Generales</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/charts/flot.html" class="nav-link">
+                                    <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Flot</p>
+                                        <p>Tareas</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Calendario</p>
                                     </a>
                                 </li>
                             </ul>
@@ -93,27 +100,27 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-tree"></i>
                                 <p>
-                                    UI Elements
+                                    Almac&eacuten
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="pages/UI/general.html" class="nav-link">
+                                    <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>General</p>
+                                        <p>Inventario</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/UI/icons.html" class="nav-link">
+                                    <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Icons</p>
+                                        <p>Compras</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/UI/buttons.html" class="nav-link">
+                                    <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Buttons</p>
+                                        <p>Ventas</p>
                                     </a>
                                 </li>
                             </ul>

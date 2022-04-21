@@ -1,9 +1,11 @@
-<?php include('../Proyecto/app/conf/bd.php');?>
+<?php include('../Proyecto/app/conf/consultasDB.php');
+    $clientes = new consultasDB();  
+?>
 <!DOCTYPE html>
 <html lang="es">
 
 <head> 
-    <title>Sistema LGBM | Principal</title>
+    <title>Sistema LGBM | CLIENTES</title>
     <?php   include('../Proyecto/layout/head.php');?>
 </head>
 
@@ -22,18 +24,13 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">P&aacutegina Web</h1>
+                            <h1 class="m-0">Clientes</h1>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
-                    <?php ?>
+                    <?php   include('../Proyecto/layout/main/clientes.php');?>
 
                 </div><!-- /.container-fluid -->
-                
             </div>
-
-            <!-- Main content -->
-                
-            <!-- /.content -->
         </div>
         
         <!-- Footer -->

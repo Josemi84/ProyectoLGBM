@@ -24,6 +24,8 @@ class DB
             $this->error = true;
             $this->error_msj = "No se ha podido realizar la conexion a la
                 bd. Revisar base de datos o parámetros";
+        }else{
+            $this->error_msj = "Conexion exitosa";
         }
     }
 

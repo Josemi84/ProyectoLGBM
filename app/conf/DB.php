@@ -53,5 +53,10 @@ class DB
             return null;
         }
     }
+
+    //Función para reportar error por pantalla
+    public function alertError()
+    { 
+        echo "<script>alert('".$this->error_msj."');</script>";
+    }
 }
-?>

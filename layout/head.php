@@ -1,5 +1,5 @@
     
-    <?php?>
+  
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -25,3 +25,12 @@
     <!-- summernote -->
     <link rel="stylesheet" href="../Proyecto/app/templeates/AdminLTE-3.2.0/plugins/summernote/summernote-bs4.min.css">
     <link rel="stylesheet" href="../Proyecto/app/css/stylos.css">
+    <link rel="stylesheet" href="../Proyecto/app/css/bootstrap.css">
+    <link rel="stylesheet" href="../Proyecto/app/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="../Proyecto/app/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../Proyecto/app/css/bootstrap-grid.rtl.css">
+    <link rel="stylesheet" href="../Proyecto/app/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="../Proyecto/app/css/bootstrap-reboot.rtl.css">
+    <link rel="stylesheet" href="../Proyecto/app/css/bootstrap-utilities.css">
+
+   

@@ -1,6 +1,9 @@
-<?php include('../Proyecto/app/conf/consultasDB.php');
-    $clientes = new consultasDB();  
+<?php 
+
+    include('../Proyecto/app/conf/cambioC.php');
+    $clientes = new consultasDB();   
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -17,7 +20,7 @@
         <?php   include('../Proyecto/layout/header.php');?>
         <?php   include('../Proyecto/layout/sidebar.php');?>
 
-        <!-- Contenido de la página principal -->
+        <!-- Contenido de la pÃ¡gina principal -->
         <div class="content-wrapper">
             <!--Contenido Header (Page header) -->
             <div class="content-header">

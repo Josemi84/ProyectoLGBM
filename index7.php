@@ -17,7 +17,7 @@
         <?php   include('../Proyecto/layout/header.php');?>
         <?php   include('../Proyecto/layout/sidebar.php');?>
 
-        <!-- Contenido de la página principal -->
+        <!-- Contenido de la pï¿½gina principal -->
         <div class="content-wrapper">
             <!--Contenido Header (Page header) -->
             <div class="content-header">
@@ -27,7 +27,7 @@
                             <h1 class="m-0">Calendario y eventos</h1>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
-                    <?php ?>
+                    <?php include('../Proyecto/layout/main/calendar.php'); ?>
 
                 </div><!-- /.container-fluid -->
             </div>

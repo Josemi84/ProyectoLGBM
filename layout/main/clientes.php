@@ -13,7 +13,7 @@
 
     <table class="table table-striped table-hover">
       <?php
-      $c = $clientes->selectAll();
+      $c = $clientes->selectAll('clientes');
 
       echo "<tr><th>ID</th><th>Nombre Completo</th><th>DNI</th><th>Fecha de Nacimiento</th><th>Email</th><th>Tel&eacutefono</th></tr>";
       foreach ($c as $fila) {
@@ -31,9 +31,9 @@
 
     <!--Añadimos los enlaces a las modales de clientes-->
     <?php 
-      include('../Proyecto/layout/main/modal.php');
-      include('../Proyecto/layout/main/modal2.php'); 
-      include('../Proyecto/layout/main/modal3.php');
+      include('../Proyecto/app/modales/modal.php');
+      include('../Proyecto/app/modales/modal2.php'); 
+      include('../Proyecto/app/modales/modal3.php');
     ?>
     
   </div>

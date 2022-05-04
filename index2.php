@@ -1,24 +1,23 @@
-<?php 
-
+<?php
     include('../Proyecto/app/conf/cambioC.php');
-    $clientes = new consultasDB();   
+    $clientes = new consultasDB();
 ?>
 
 <!DOCTYPE html>
 <html lang="es">
 
-<head> 
+<head>
     <title>Sistema LGBM | CLIENTES</title>
-    <?php   include('../Proyecto/layout/head.php');?>
+    <?php include('../Proyecto/layout/head.php'); ?>
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
 
-        
-        <?php   include('../Proyecto/layout/preload.php');?>
-        <?php   include('../Proyecto/layout/header.php');?>
-        <?php   include('../Proyecto/layout/sidebar.php');?>
+
+        <?php include('../Proyecto/layout/preload.php'); ?>
+        <?php include('../Proyecto/layout/header.php'); ?>
+        <?php include('../Proyecto/layout/sidebar.php'); ?>
 
         <!-- Contenido de la página principal -->
         <div class="content-wrapper">
@@ -30,15 +29,15 @@
                             <h1 class="m-0">Clientes</h1>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
-                    <?php   include('../Proyecto/layout/main/clientes.php');?>
+                    <?php include('../Proyecto/layout/main/clientes.php'); ?>
 
                 </div><!-- /.container-fluid -->
             </div>
         </div>
-        
+
         <!-- Footer -->
-        <?php   include('../Proyecto/layout/footer.php');?>
-        
+        <?php include('../Proyecto/layout/footer.php'); ?>
+
         <!-- Control Sidebar -->
         <aside class="control-sidebar control-sidebar-dark">
             <!-- Control sidebar content goes here -->
@@ -47,7 +46,7 @@
     </div>
     <!-- ./wrapper -->
 
-    <?php include('../Proyecto/layout/scripts.php')?>
+    <?php include('../Proyecto/layout/scripts.php') ?>
 </body>
 
 </html>

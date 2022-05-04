@@ -17,7 +17,7 @@
         <?php   include('../Proyecto/layout/header.php');?>
         <?php   include('../Proyecto/layout/sidebar.php');?>
 
-        <!-- Contenido de la página principal -->
+        <!-- Contenido de la pï¿½gina principal -->
         <div class="content-wrapper">
             <!--Contenido Header (Page header) -->
             <div class="content-header">

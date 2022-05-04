@@ -5,7 +5,7 @@
 <html lang="es">
 
 <head> 
-    <title>Sistema LGBM | Campa&ntildeas</title>
+    <title>Sistema LGBM | Campañas</title>
     <?php   include('../Proyecto/layout/head.php');?>
 </head>
 
@@ -17,17 +17,17 @@
         <?php   include('../Proyecto/layout/header.php');?>
         <?php   include('../Proyecto/layout/sidebar.php');?>
 
-        <!-- Contenido de la p�gina principal -->
+        <!-- Contenido de la p�gina principal -->
         <div class="content-wrapper">
             <!--Contenido Header (Page header) -->
             <div class="content-header">
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Campa&ntildeas de publicidad</h1>
+                            <h1 class="m-0">Campañas</h1>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
-                    <?php ?>
+                    <?php include('../Proyecto/layout/main/campañas.php'); ?>
 
                 </div><!-- /.container-fluid -->
             </div>

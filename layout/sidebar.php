@@ -1,133 +1,132 @@
-<?php?>
- <!-- Main Sidebar Container -->
-        <aside class="main-sidebar sidebar-dark-primary elevation-4">
-            <!-- Brand Logo -->
-            <a href="index3.html" class="brand-link">
-                <img src="../Proyecto/app/templeates/AdminLTE-3.2.0/dist/img/LLogo.png" alt="LGBM Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-                <span class="brand-text font-weight-light">LGBM</span>
-            </a>
+<!-- Main Sidebar Container -->
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="../Proyecto/index.php" class="brand-link">
+        <img src="../Proyecto/app/templeates/AdminLTE-3.2.0/dist/img/LLogo.png" alt="LGBM Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+        <span class="brand-text font-weight-light">LGBM</span>
+    </a>
 
-            <!-- Sidebar -->
-            <div class="sidebar">
-                <!-- Sidebar user panel (optional) -->
-                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-                    <div class="image">
-                        <img src="../Proyecto/app/templeates/AdminLTE-3.2.0/dist/img/user8-128x128.jpg" class="img-circle elevation-2" alt="User Image">
-                    </div>
-                    <div class="info">
-                        <a href="#" class="d-block">Usuario Logeado</a>
-                    </div>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <!-- Sidebar user panel (optional) -->
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <div class="image">
+                <img src="../Proyecto/app/templeates/AdminLTE-3.2.0/dist/img/user8-128x128.jpg" class="img-circle elevation-2" alt="User Image">
+            </div>
+            <div class="info">
+                <a href="#" class="d-block">Usuario Logeado</a>
+            </div>
+        </div>
+
+        <!-- SidebarSearch Form -->
+        <div class="form-inline">
+            <div class="input-group" data-widget="sidebar-search">
+                <input class="form-control form-control-sidebar" type="search" placeholder="Búsqueda" aria-label="Search">
+                <div class="input-group-append">
+                    <button class="btn btn-sidebar">
+                        <i class="fas fa-search fa-fw"></i>
+                    </button>
                 </div>
+            </div>
+        </div>
 
-                <!-- SidebarSearch Form -->
-                <div class="form-inline">
-                    <div class="input-group" data-widget="sidebar-search">
-                        <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
-                        <div class="input-group-append">
-                            <button class="btn btn-sidebar">
-                                <i class="fas fa-search fa-fw"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Sidebar Menu -->
-                <nav class="mt-2">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                        <!-- Add icons to the links using the .nav-icon class
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <!-- Add icons to the links using the .nav-icon class
                             with font-awesome or any other icon font library -->
 
-                        <li class="nav-header">MEN&Uacute DE NAVEGACI&OacuteN</li>
+                <li class="nav-header">MENÚ DE NAVEGACIÓN</li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-copy"></i>
+                        <p>
+                            Relaciones Laborales
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-copy"></i>
-                                <p>
-                                    Publicidad
-                                    <i class="fas fa-angle-left right"></i>
-                                </p>
+                            <a href="../Proyecto/index2.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Clientes</p>
                             </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="../Proyecto/index2.php" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Clientes</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../Proyecto/index3.php" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Newsletter</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../Proyecto/index4.php" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Campa&ntildeas</p>
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-chart-pie"></i>
-                                <p>
-                                    Estad&iacutesticas
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
+                            <a href="../Proyecto/index3.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Newsletter</p>
                             </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="../Proyecto/index5.php" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Generales</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../Proyecto/index6.php" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Tareas</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../Proyecto/index7.php" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Calendario</p>
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-tree"></i>
-                                <p>
-                                    Almac&eacuten
-                                    <i class="fas fa-angle-left right"></i>
-                                </p>
+                            <a href="../Proyecto/index4.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Campa&ntildeas</p>
                             </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="../Proyecto/index8.php" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Inventario</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../Proyecto/index9.php" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Compras</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../Proyecto/index9.php" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Ventas</p>
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
                     </ul>
-                </nav>
-                <!-- /.sidebar-menu -->
-            </div>
-            <!-- /.sidebar -->
-        </aside>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-chart-pie"></i>
+                        <p>
+                            Estad&iacutesticas
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="../Proyecto/index5.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Generales</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Proyecto/index6.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Tareas</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Proyecto/index7.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Calendario</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-tree"></i>
+                        <p>
+                            Almac&eacuten
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="../Proyecto/index8.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Inventario</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Proyecto/index9.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Compras</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Proyecto/index10.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Ventas</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+</aside>

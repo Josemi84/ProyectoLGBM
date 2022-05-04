@@ -1,5 +1,6 @@
-<?php include('../Proyecto/app/conf/DB.php');
-
+<?php 
+    include('../Proyecto/app/conf/cambioV.php');
+    $ventas = new consultasDB();
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -24,10 +25,10 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Pedidos de Venta</h1>
+                            <h1 class="m-0"></h1>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
-                    <?php ?>
+                    <?php include('../Proyecto/layout/main/ventas.php'); ?>
 
                 </div><!-- /.container-fluid -->
             </div>

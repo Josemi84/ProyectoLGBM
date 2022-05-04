@@ -33,9 +33,21 @@
 <script src="../Proyecto/app/templeates/AdminLTE-3.2.0/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="../Proyecto/app/templeates/AdminLTE-3.2.0/dist/js/pages/dashboard.js"></script>
+<!-- fullCalendar 2.2.5 -->
+<script src="../Proyecto/app/templeates/AdminLTE-3.2.0/plugins/moment/moment.min.js"></script>
+<script src="../Proyecto/app/templeates/AdminLTE-3.2.0/plugins/fullcalendar/main.js"></script>
 
+
+
+
+
+<!-- Bootstrap 5 -->
 <script src="../Proyecto/app/js/bootstrap.bundle.js"></script>
 <script src="../Proyecto/app/js/bootstrap.esm.js"></script>
 <script src="../Proyecto/app/js/bootstrap.js"></script>
 <script src="../Proyecto/app/js/base.js"></script>
+
+<script src="../Proyecto/app/templeates/AdminLTE-3.2.0/dist/js/pages/dashboard3.js"></script>
+<script src="../Proyecto/app/templeates/AdminLTE-3.2.0/plugins/chart.js/Chart.min.js"></script>
+
 

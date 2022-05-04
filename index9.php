@@ -1,6 +1,8 @@
-<?php include('../Proyecto/app/conf/DB.php');
-
+<?php 
+    include('../Proyecto/app/conf/cambioCO.php');
+    $compras = new consultasDB();
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -17,17 +19,17 @@
         <?php   include('../Proyecto/layout/header.php');?>
         <?php   include('../Proyecto/layout/sidebar.php');?>
 
-        <!-- Contenido de la página principal -->
+        <!-- Contenido de la pÃ¡gina principal -->
         <div class="content-wrapper">
             <!--Contenido Header (Page header) -->
             <div class="content-header">
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Pedidos de Compra</h1>
+                            <h1 class="m-0"></h1>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
-                    <?php ?>
+                    <?php include('../Proyecto/layout/main/compras.php'); ?>
 
                 </div><!-- /.container-fluid -->
             </div>

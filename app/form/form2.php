@@ -5,7 +5,7 @@
 
             <?php
             //Mostraremos las opciones según la cantidad de clientes registrados
-            $c = $clientes->selectAll();
+            $c = $clientes->selectAll('clientes');
 
             foreach ($c as $fila) {
                 echo "<option value='" . $fila["id_cliente"] . "'>" . $fila["id_cliente"] . "</option>";

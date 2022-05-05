@@ -1,14 +1,14 @@
-<!-- Calendar -->
+<!-- Calendario -->
 <div class="card bg-gradient-success">
     <div class="card-header border-0">
 
         <h3 class="card-title">
             <i class="far fa-calendar-alt"></i>
-            Calendar
+            Calendario
         </h3>
-        <!-- tools card -->
+
         <div class="card-tools">
-            <!-- button with a dropdown -->
+
             <div class="btn-group">
                 <button type="button" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52">
                     <i class="fas fa-bars"></i>
@@ -27,13 +27,11 @@
                 <i class="fas fa-times"></i>
             </button>
         </div>
-        <!-- /. tools -->
+
     </div>
-    <!-- /.card-header -->
+
     <div class="card-body pt-0">
-        <!--The calendar -->
         <div id="calendar" style="width: 100%"></div>
     </div>
-    <!-- /.card-body -->
+
 </div>
-<!-- /.card -->

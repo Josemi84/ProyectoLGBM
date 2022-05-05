@@ -1,4 +1,4 @@
-<!-- Conexión con la Base de Datos -->
+<!-- ConexiÃ³n con la Base de Datos -->
 <?php include('../Proyecto/app/conf/consultasDB.php');?>
 <!DOCTYPE html>
 <html lang="es">
@@ -13,7 +13,7 @@
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
 
-        <!-- Elementos de precarga de la página -->
+        <!-- Elementos de precarga de la pÃ¡gina -->
         <?php   include('../Proyecto/layout/preload.php');?>
 
         <!-- Header -->
@@ -22,7 +22,7 @@
         <!-- Sidebar -->
         <?php   include('../Proyecto/layout/sidebar.php');?>
 
-        <!-- Contenido de la página principal -->
+        <!-- Contenido de la pÃ¡gina principal -->
         <div class="content-wrapper">
             <!--Contenido Header (Page header) -->
             <div class="content-header">

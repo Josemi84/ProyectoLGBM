@@ -1,4 +1,5 @@
 <?php 
+    include('../Proyecto/layout/sesion.php');
     include('../Proyecto/app/conf/cambioCO.php');
     $compras = new consultasDB();
 ?>

@@ -14,7 +14,8 @@ class consultasDB extends DB
 
     public function selectAll($table)
     {
-        switch ($table) {
+        switch ($table) 
+        {
             case 'clientes':
                 $consulta = "SELECT * FROM " . $table . ";";
                 break;
@@ -55,7 +56,7 @@ class consultasDB extends DB
         $consulta = "INSERT INTO `clientes` (`id_cliente`, `nombre`, `apellido_1`, `apellido_2`, `DNI`, `fecha_n`, `email`, `tlf`) VALUES (NULL, '" . $nombre . "', '" . $apellido1 . "', '" . $apellido2 . "', '" . $dni . "', '" . $fechaN . "', '" . $email . "', '" . $tlf . "')";
         return $this->realizarConsulta($consulta);
     }
-
+    
 
     //Tabla compras
 
@@ -71,12 +72,14 @@ class consultasDB extends DB
         return $this->realizarConsulta($consulta);
     }
 
-    public function selectCant($id_compra){
+    public function selectCant($id_compra)
+    {
         $consulta = "SELECT cantidad FROM `compras` WHERE id_compra=" . $id_compra . ";";
         return $this->realizarConsulta($consulta);
     }
 
-    public function selectIDC($id_compra){
+    public function selectIDC($id_compra)
+    {
         $consulta = "SELECT id_producto FROM `compras` WHERE id_compra=" . $id_compra . ";";
         return $this->realizarConsulta($consulta);
     }
@@ -95,12 +98,14 @@ class consultasDB extends DB
         return $this->realizarConsulta($consulta);
     }
 
-    public function selectCantV($id_venta){
+    public function selectCantV($id_venta)
+    {
         $consulta = "SELECT cantidad FROM `ventas` WHERE id_venta=" . $id_venta . ";";
         return $this->realizarConsulta($consulta);
     }
 
-    public function selectIDV($id_venta){
+    public function selectIDV($id_venta)
+    {
         $consulta = "SELECT id_producto FROM `ventas` WHERE id_venta=" . $id_venta . ";";
         return $this->realizarConsulta($consulta);
     }
@@ -131,13 +136,30 @@ class consultasDB extends DB
         return $this->realizarConsulta($consulta);
     }
 
-    public function selectMP(){
+    public function selectMP()
+    {
         $consulta = "SELECT * FROM `inventario` WHERE tipo ='MP';";
         return $this->realizarConsulta($consulta);
     }
 
-    public function selectPE(){
+    public function selectPE()
+    {
         $consulta = "SELECT * FROM `inventario` WHERE tipo ='PE';";
         return $this->realizarConsulta($consulta);
     }
+
+    //Tabla usuarios
+
+    public function selectEmail($email)
+    {
+        $consulta = "SELECT * FROM `usuarios` WHERE email=" . $email . ";";
+        return $this->realizarConsulta($consulta);
+    }
+
+    public function insertUsuario($email, $password_hash)
+    {
+        $consulta = "INSERT INTO `usuarios` (`user_id`, `email`,  `password`) VALUES (NULL, '.$email.', '$password_hash')";
+        return $this->realizarConsulta($consulta);
+    }
+    
 }

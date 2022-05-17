@@ -11,13 +11,14 @@
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-                <img src="../Proyecto/app/templeates/AdminLTE-3.2.0/dist/img/user8-128x128.jpg" class="img-circle elevation-2" alt="User Image">
+                <img src="../Proyecto/img/img<?php echo rand(1,2)?>.jpg" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-                <a href="#" class="d-block">Usuario Logeado</a>
+                <a href="#" class="d-block text-decoration-none"><?php echo 'Usuario Número --> '.$_SESSION['user_id'];?></a>
             </div>
+            
         </div>
-
+        
         <!-- SidebarSearch Form -->
         <div class="form-inline">
             <div class="input-group" data-widget="sidebar-search">

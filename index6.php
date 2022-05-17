@@ -1,4 +1,6 @@
-<?php include('../Proyecto/app/conf/DB.php');
+<?php 
+    include('../Proyecto/layout/sesion.php');
+    include('../Proyecto/app/conf/DB.php');
 
 ?>
 <!DOCTYPE html>
@@ -17,7 +19,7 @@
         <?php   include('../Proyecto/layout/header.php');?>
         <?php   include('../Proyecto/layout/sidebar.php');?>
 
-        <!-- Contenido de la página principal -->
+        <!-- Contenido de la pï¿½gina principal -->
         <div class="content-wrapper">
             <!--Contenido Header (Page header) -->
             <div class="content-header">

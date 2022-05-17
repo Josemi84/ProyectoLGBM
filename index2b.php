@@ -1,5 +1,5 @@
 <?php
-session_start();
+include('../Proyecto/layout/sesion.php');
 include('../Proyecto/app/conf/consultasDB.php');
 $clientes = new consultasDB();
 

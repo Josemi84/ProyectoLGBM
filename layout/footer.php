@@ -1,4 +1,4 @@
-<?php?>
+
 <footer class="main-footer">
     <strong>Copyright &copy; 2022 LGBM Systems.</strong>
     All rights reserved.

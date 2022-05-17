@@ -1,4 +1,6 @@
-<?php include('../Proyecto/app/conf/DB.php');
+<?php 
+    include('../Proyecto/layout/sesion.php');
+    include('../Proyecto/app/conf/DB.php');
 
 ?>
 <!DOCTYPE html>

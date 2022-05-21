@@ -1,8 +1,8 @@
 
 <footer class="main-footer">
-    <strong>Copyright &copy; 2022 LGBM Systems.</strong>
-    All rights reserved.
+    <strong>Copyright &copy; 2022 LGBM System </strong>
+    | Todos los derechos reservados
     <div class="float-right d-none d-sm-inline-block">
-        <b>Version</b> 1.0.0
+        <b>Versión</b> 1.3.0
     </div>
 </footer>

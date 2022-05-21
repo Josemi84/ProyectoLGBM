@@ -17,7 +17,7 @@
     <ul class="navbar-nav ml-auto">
         <li class="nav-item d-none d-sm-inline-block">
             <button type="button" class="btn btn-warning">
-                <a href="../Proyecto/login/logout.php" class="nav-link">Cerrar Sesión</a>
+                <a href="../Proyecto/login/logout.php" class="nav-link h5">Cerrar Sesión</a>
             </button>
         </li>
     </ul>

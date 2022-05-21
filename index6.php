@@ -9,6 +9,7 @@
 <head> 
     <title>Sistema LGBM | Tareas</title>
     <?php   include('../Proyecto/layout/head.php');?>
+    <link rel="stylesheet" href="../Proyecto/app/css/tareas.css">
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -26,10 +27,10 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Tareas y programaciones</h1>
+                            <h1 class="m-0 pb-4">Tareas y proyectos</h1>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
-                    <?php ?>
+                    <?php   include('../Proyecto/layout/tareas.php');?>
 
                 </div><!-- /.container-fluid -->
             </div>
@@ -47,6 +48,7 @@
     <!-- ./wrapper -->
 
     <?php include('../Proyecto/layout/scripts.php')?>
+    <script src="../Proyecto/app/js/tareas.js"></script>
 </body>
 
 </html>

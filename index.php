@@ -30,27 +30,12 @@ include('../Proyecto/app/conf/consultasDB.php');
             <div class="content-header">
                 <div class="container-fluid">
                     <div class="row mb-2">
-                        <div class="col-sm-6 mb-6">
+                        <div class="col-sm-6 my-3 ml-3">
                             <h1 class="m-0"> Editor de Página Web </h1>
                         </div>
                     </div>
-                    <div class="container-fluid mb-6" >
-                        <button type="button" class="btn btn-danger" id="bt-1">Añadir</button>
-                        <button type="button" class="btn btn-warning" id="bt-2">Limpiar</button>
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="bt-3">
-                                Crear Web
-                            </button>
-                            <ul class="dropdown-menu">
-                                <form action="../Proyecto/web/crear.php" method="post" target="_blank" class="">
-                                    <textarea name="contenido" id="text-web"></textarea>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                </form>
-                            </ul>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="content" id="principal"></div>
+                    
+                    <?php include('../Proyecto/layout/main/pagweb.php'); ?>
                 </div>
             </div>
         </div>

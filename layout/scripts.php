@@ -28,30 +28,46 @@
 <!-- overlayScrollbars -->
 <script src="../Proyecto/app/templeates/AdminLTE-3.2.0/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
-<script src="../Proyecto/app/templeates/AdminLTE-3.2.0/dist/js/adminlte.js"></script>
-<script src="../Proyecto/app/templeates/AdminLTE-3.2.0/dist/js/adminlte.min.js"></script>
+<!--<script src="../Proyecto/app/templeates/AdminLTE-3.2.0/dist/js/adminlte.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../Proyecto/app/templeates/AdminLTE-3.2.0/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="../Proyecto/app/templeates/AdminLTE-3.2.0/dist/js/pages/dashboard.js"></script>
-<!-- fullCalendar 2.2.5 -->
-<script src="../Proyecto/app/templeates/AdminLTE-3.2.0/plugins/moment/moment.min.js"></script>
-<script src="../Proyecto/app/templeates/AdminLTE-3.2.0/plugins/fullcalendar/main.js"></script>
 
 <!-- SweetAlert2 -->
 <script src="../Proyecto/app/templeates/AdminLTE-3.2.0/plugins/sweetalert2/sweetalert2.min.js"></script>
 <!-- Toastr -->
 <script src="../Proyecto/app/templeates/AdminLTE-3.2.0/plugins/toastr/toastr.min.js"></script>
 
-<!-- Bootstrap 4 -->    
+<!-- Bootstrap 4  -->   
 <script src="../app/templeates/AdminLTE-3.2.0/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <script src="../Proyecto/app/templeates/AdminLTE-3.2.0/dist/js/pages/dashboard3.js"></script>
 <script src="../Proyecto/app/templeates/AdminLTE-3.2.0/plugins/chart.js/Chart.min.js"></script>
 
 
+
 <script src="../Proyecto/web/scripts.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<script src="../Proyecto/app/js/calendar.js"></script>
+<script src="../Proyecto/app/js/CardRefresh.js"></script>
+<script src="../Proyecto/app/js/CardWidget.js"></script>
+<script src="../Proyecto/app/js/ControlSidebar.js"></script>
+<script src="../Proyecto/app/js/DirectChat.js"></script>
+<script src="../Proyecto/app/js/Dropdown.js"></script>
+<script src="../Proyecto/app/js/ExpandableTable.js"></script>
+<script src="../Proyecto/app/js/Fullscreen.js"></script>
+<script src="../Proyecto/app/js/IFrame.js"></script>
+<script src="../Proyecto/app/js/Layout.js"></script>
+<script src="../Proyecto/app/js/NavbarSearch.js"></script>
+<script src="../Proyecto/app/js/SidebarSearch.js"></script>
+<script src="../Proyecto/app/js/stats.js"></script>
+<script src="../Proyecto/app/js/Toasts.js"></script>
+<script src="../Proyecto/app/js/TodoList.js"></script>
+<script src="../Proyecto/app/js/Treeview.js"></script>
 
 
 

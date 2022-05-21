@@ -10,15 +10,15 @@
     <div class="sidebar">
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-            <div class="image">
-                <img src="../Proyecto/img/img<?php echo rand(1,2)?>.jpg" class="img-circle elevation-2" alt="User Image">
+            <div class="image col-4">
+                <img src="../Proyecto/img/img<?php echo rand(1, 2) ?>.jpg" class="rounded" alt="Imagen del usuario" style="width: 100%;">
             </div>
-            <div class="info">
-                <a href="#" class="d-block text-decoration-none"><?php echo 'Usuario Número --> '.$_SESSION['user_id'];?></a>
+            <div class="info col-8">
+                <a href="#" class="d-block text-decoration-none mt-2"><?php echo 'Nombre usuario ' . $_SESSION['user_id']; ?></a>
             </div>
-            
+
         </div>
-        
+
         <!-- SidebarSearch Form -->
         <div class="form-inline">
             <div class="input-group" data-widget="sidebar-search">
@@ -39,21 +39,21 @@
 
                 <li class="nav-header">MENÚ DE NAVEGACIÓN</li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Relaciones Laborales
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
-                    <ul class="nav nav-treeview">
+                    <ul class="nav nav-treeview ">
                         <li class="nav-item">
                             <a href="../Proyecto/index2.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Clientes</p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!--<li class="nav-item ">
                             <a href="../Proyecto/index3.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Newsletter</p>
@@ -62,16 +62,16 @@
                         <li class="nav-item">
                             <a href="../Proyecto/index4.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Campa&ntildeas</p>
+                                <p>Campañas</p>
                             </a>
-                        </li>
+                        </li>-->
                     </ul>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-chart-pie"></i>
                         <p>
-                            Estad&iacutesticas
+                            Estadísticas
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
@@ -100,7 +100,7 @@
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-tree"></i>
                         <p>
-                            Almac&eacuten
+                            Almacén
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>

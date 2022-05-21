@@ -5,7 +5,7 @@
     define('DATABASE', 'lgbm');
      
     try {
-        $connection = new PDO("mysql:host=".HOST.";dbname=".DATABASE, USER, PASSWORD);
+        $connection = new PDO("mysql:host=".HOST.";dbname=".DATABASE, USER, PASSWORD);      //Conexión con DB
     } catch (PDOException $e) {
         exit("Error: " . $e->getMessage());
     }
@@ -22,13 +22,13 @@
     
         $result = $query->fetch(PDO::FETCH_ASSOC);
     
-        if (!$result)
+        if (!$result)       //Comprobación si existe el email en la DB
         {
             echo '<script>alert("Correo no registrado")</script>';
             //header("Location: http://localhost/Proyecto/login");
 
         } else {
-            if (password_verify($password, $result['password'])) 
+            if (password_verify($password, $result['password']))    //Validación de pass
             {
                 session_start();
                 $_SESSION['user_id'] = $result['user_id'];
@@ -42,4 +42,8 @@
         echo '<script>alert("Error");</script>';
         //header("Location: http://localhost/Proyecto/login");
     }
+
+    //Cerramos la conexión
+    $connection = null;
+    $query = null;
 ?>

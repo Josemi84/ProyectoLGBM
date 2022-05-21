@@ -6,7 +6,7 @@
                 <!-- AREA CHART -->
                 <div class="card card-primary">
                     <div class="card-header">
-                        <h3 class="card-title">Area Chart</h3>
+                        <h3 class="card-title">Gráfica de áreas</h3>
 
                         <div class="card-tools">
                             <button type="button" class="btn btn-tool" data-card-widget="collapse">
@@ -38,7 +38,7 @@
                 <!-- LINE CHART -->
                 <div class="card card-info">
                     <div class="card-header">
-                        <h3 class="card-title">Line Chart</h3>
+                        <h3 class="card-title">Gráfica Lineal</h3>
 
                         <div class="card-tools">
                             <button type="button" class="btn btn-tool" data-card-widget="collapse">
